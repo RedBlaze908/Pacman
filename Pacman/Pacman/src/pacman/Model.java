@@ -110,7 +110,7 @@ public class Model extends JPanel implements ActionListener {
 
     private void showIntroScreen(Graphics2D g2d) {
  
-    	String start = "Premi SPAZIO per iniziare";
+    	String start = "Press SPACE To Start";
         g2d.setColor(Color.yellow);
         g2d.drawString(start, (SCREEN_SIZE)/4, 150);
     }
